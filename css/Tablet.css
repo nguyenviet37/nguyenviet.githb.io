@@ -1,0 +1,33 @@
+@media screen and (max-width: 992px) {
+  /* kích thước cài đặt theo tablet */
+  /* phần 1 chuyển đổi nav bar */
+  .nav-bar1 {
+    /* chuyển navbar về dạng cột */
+    flex-direction: column;
+    height: auto;
+    gap: 1px;
+  }
+
+  .nav {
+    flex-basis: 1px;
+    border: none;
+  }
+
+  .avarta {
+    /* ẩn phần ảnh đại diện khi thu nhỏ */
+    display: none;
+  }
+  /* phần 2 chuển đổi phần thông tin cá nhân phần này dùng boosttrap*/
+  /* phần 3 bố cục phần thông tin nghề nghiệp  */
+  .cv-mane {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
